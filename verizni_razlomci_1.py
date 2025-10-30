@@ -23,7 +23,7 @@ def continued_fraction(x, max_terms=20, tol=1e-12):
 # =========================
 st.title("Alat za kontinuirane razlomke")
 st.write("Uputstvo: Koristite ** za stepen umesto ^. Na primer, unesite `2**(1/2)` za kvadratni koren iz 2" )
-st.write("Mozete koristiti funkcije iz math modula, npr. `math.e`, `math.pi`, `math.sin(math.pi/4)` itd.")
+st.write("Mozete koristiti funkcije iz math modula, npr. `math.e`, `math.pi`, `math.sqrt` `math.sin(math.pi/4)` itd.")
 # Text input for user
 user_input = st.text_input("Unesi broj ili izraz:", "2**0.5")
 
