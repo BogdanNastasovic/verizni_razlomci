@@ -22,7 +22,7 @@ def continued_fraction(x, max_terms=20, tol=1e-12):
 # Streamlit UI
 # =========================
 st.title("Alat za kontinuirane razlomke")
-st.write("Unesi broj ili izraz (npr. `2**0.5` ili `math.pi`)")
+st.write("Uputstvo: Koristite ** za stepen umesto ^. Na primer, unesite `2**(1/2)` za kvadratni koren iz 2. \n Mozete koristiti funkcije iz math modula, npr. `math.e`, `math.pi`, `math.sin(math.pi/4)` itd.")
 
 # Text input for user
 user_input = st.text_input("Unesi broj ili izraz:", "2**0.5")
